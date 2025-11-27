@@ -15,7 +15,7 @@ body{
 }
 
 .card {
-    background: white;
+    background-color: #FFF;
     padding: 30px;
     border-radius: 15px;
     width: 400px;
@@ -34,8 +34,8 @@ body{
     width: 200px;
     height: 200px;
     margin-bottom: 15px;
-    box-shadow: 10px 10px 62px rgba(0,0,0,0.15); /* sombra suave */
-    border-radius: 20px; /* opcional, mas deixa melhor */
+    box-shadow: 10px 10px 62px rgba(0,0,0,0.15); 
+    border-radius: 20px; 
 }
 
 
@@ -44,16 +44,16 @@ input{
     margin:15px 0;
    max-width: 400px;
    width: 300px;
-   border-radius: 5px;
+   border-radius: 2px;
    border:none;
-   transition: 0.2s ease-in-out;
+   transition: 0.6s;
    font-size: 1rem;
-   font-weight: bold;
+   font-weight: bold; 
 }
 
 input:focus {
     outline: none;
-    box-shadow: 0px 0px 30px rgba(101, 181, 247, 0.8); /* azul suave */
+    box-shadow: 5px 10px 15px rgba(0,0,0,0.15); 
 }
 
 #name {
@@ -76,15 +76,20 @@ button{
     font-size: 1rem;
     border-radius: 8px;
     margin-bottom: 10px;
-    
+    transition: 0.6s;
 }
 
 button:hover {
     background-color: #3792d8;
-    transition: .2s;
 }
 #natureza{
-    font-size: 1.3rem;
+    font-size: 1.4rem;
     text-align: center;
     text-transform: capitalize;
+    margin: 2px;
+}
+
+#order{
+    font-size: 1.3rem;
+    margin-bottom: 5px;
 }

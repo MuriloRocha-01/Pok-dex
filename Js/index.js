@@ -63,7 +63,7 @@ function mostrarPoke(objeto) {
     imagePoke.alt = `imagem do ${objeto.name}`;
 
     namepoke.innerHTML = objeto.name;
-    orderPoke.innerHTML = `Order: ${objeto.order}`;
+    orderPoke.innerHTML = `${objeto.order}`;
 
     naturezaPoke.innerHTML = `Type: ${objeto.types
         .map(t => t.type.name)
