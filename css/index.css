@@ -93,3 +93,41 @@ button:hover {
     font-size: 1.3rem;
     margin-bottom: 5px;
 }
+
+@media (max-width: 480px) {
+
+    .card {
+        padding: 20px;
+        border-radius: 12px;
+    }
+
+    .pokemon-img {
+        width: 160px;
+    }
+
+    #name {
+        font-size: 1.5rem;
+    }
+
+    #natureza, #order {
+        font-size: 1.2rem;
+    }
+
+    input, button {
+        max-width: 100%;
+        font-size: 0.9rem;
+    }
+}
+
+/* TABLETS */
+@media (max-width: 768px) {
+
+    .card {
+        width: 350px;
+    }
+
+    .pokemon-img {
+        width: 180px;
+        height: 180px;
+    }
+}
